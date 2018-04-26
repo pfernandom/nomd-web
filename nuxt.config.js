@@ -13,6 +13,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  css: [
+    // node.js module but we specify the pre-processor
+    { src: 'bulma/bulma.sass', lang: 'sass' }
+  ],
   /*
   ** Customize the progress bar color
   */
@@ -33,6 +37,18 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    },
+
+    postcss: {
+      plugins: {
+        'postcss-custom-properties': false
+      }
     }
-  }
+  },
+
+  router: {
+    middleware: 'i18n'
+  },
+  
+  plugins: ['~/plugins/i18n.js'],
 }

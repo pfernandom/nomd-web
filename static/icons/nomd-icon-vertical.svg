@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg id="custom-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 500" preserveAspectRatio="xMidYMid meet">
+  <style type="text/css">
+    .nomd-icon{
+      color: #a3ffa3;
+    }
+
+    .nomd-icon-text{
+      color:white;
+    }
+  </style>
+  <g class="nomd-icon">
+    <ellipse cx="265" cy="155" rx="100" ry="95" fill="white" stroke="currentColor" stroke-width="8"/>
+    <ellipse cx="265" cy="155" rx="145" ry="140" fill="none" stroke="currentColor" stroke-width="3"/>
+    <path d='M179,42 L150,45 L169,50 L175,67 Z' fill='currentColor' stroke="currentColor"/>
+    <text x="47" y="450" font-size="150" class="nomd-icon-text" font-family="'Avenir', Helvetica, Arial, sans-serif" fill="currentColor" stroke="currentColor">Nomd</text>
+  </g>
+</svg>

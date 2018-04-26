@@ -8,8 +8,9 @@
 
 <script>
 import '~/assets/font-config';
-import NomdHeader from '~/components/Header.vue';
+import NomdHeader from '~/components/SmallHeader.vue';
 import NomdFooter from '~/components/Footer.vue';
+
 
 export default {
   components: {
@@ -20,14 +21,5 @@ export default {
 </script>
 
 <style lang="scss">
-  #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-  }
 
-  .svg-inline--fa {
-    margin: 0px 5px;
-  }
 </style>
